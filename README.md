@@ -8,4 +8,4 @@ docker run -p 6381:6379 -t redis:3.2.7
 
 To run redis container in background run below command
 
-docker run -p 6381:6379 -t redis:3.2.7
+docker run -p 6381:6379 -t redis:3.2.7 -d
